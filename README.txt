@@ -1,3 +1,15 @@
+The script uses data.table package of R. So if you don't have that installed please use the following code to install and load the library.
+
+install.packages("data.table")
+library(data.table)
+
+The script assumes that you have not downloaded the data, so if you run the entire script it will start by downloading the zip files of the data and extract them in your working directory. 
+It then loads the data directly from your working directory.
+At the end, the script should write a file called tidydata.txt in your working directory. 
+
+Below is the description of the data contained in the tidydata.txt. 
+
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
